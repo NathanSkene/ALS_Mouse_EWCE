@@ -48,7 +48,7 @@
 #' @import ggplot2
 #' @importFrom reshape2 melt
 # @import plyr
-generate.bootstrap.plots.for.transcriptome <- function(sct_data,tt,thresh,annotLevel=1,reps,full_results=NA,listFileName="",showGNameThresh=25){
+generate.bootstrap.plots.for.transcriptome_SOD1 <- function(sct_data,tt,thresh,annotLevel=1,reps,full_results=NA,listFileName="",showGNameThresh=25){
     # Check the arguments
     correct_length = length(full_results)==5
     required_names = c("joint_results","hit.cells.up","hit.cells.down","bootstrap_data.up","bootstrap_data.down")
